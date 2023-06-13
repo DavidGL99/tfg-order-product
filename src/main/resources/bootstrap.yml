@@ -7,5 +7,8 @@ spring:
       enabled: true
       uri: http://${CONFIG_HOST:localhost}:8086
 
-
+paypal:
+  baseUrl: https://api-m.sandbox.paypal.com
+  clientId: AQeCPaz9NEJqDQEg6KX3EKZ7u5uXxmK3nvCPXcb7vMx79W_fj9Mnx_tPb36eBJQ6iJxZadoKsJFVZuhx
+  secret: ECB-W_VA2T-bIPggTTF4vNv5jF_-OkewE3CHgGnJpqEC9-C20-tw-L0v6paGvz0o__b1BAM9l2CzQmnr
 
